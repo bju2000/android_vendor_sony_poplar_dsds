@@ -472,8 +472,6 @@ PRODUCT_PACKAGES += \
     CameraCommon \
     CameraPanorama-release \
     CustomizationSelector \
-    HotwordEnrollmentOKGoogleWCD9340 \
-    HotwordEnrollmentXGoogleWCD9340 \
     SemcCameraUI-xxhdpi-release \
     SomcMovieCreator-release \
     SoundPhotoCamera-xxhdpi-release \

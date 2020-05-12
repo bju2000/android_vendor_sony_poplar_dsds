@@ -455,8 +455,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/poplar_dsds/proprietary/priv-app/SoundPhotoCamera-xxhdpi-release/lib/armeabi/libmpo.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SoundPhotoCamera-xxhdpi-release/lib/armeabi/libmpo.so \
     vendor/sony/poplar_dsds/proprietary/priv-app/SoundPhotoCamera-xxhdpi-release/lib/armeabi/libnativebytebuffer.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SoundPhotoCamera-xxhdpi-release/lib/armeabi/libnativebytebuffer.so \
     vendor/sony/poplar_dsds/proprietary/priv-app/SoundPhotoCamera-xxhdpi-release/lib/armeabi/libspf.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SoundPhotoCamera-xxhdpi-release/lib/armeabi/libspf.so \
-	vendor/sony/poplar_dsds/proprietary/product/lib/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.gnss@3.0.so \
-    vendor/sony/poplar_dsds/proprietary/product/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@3.0.so \
     vendor/sony/poplar_dsds/proprietary/vendor/sony/touch/images/big_touch.png:$(TARGET_COPY_OUT_VENDOR)/sony/touch/images/big_touch.png \
     vendor/sony/poplar_dsds/proprietary/vendor/sony/touch/images/splash.png:$(TARGET_COPY_OUT_VENDOR)/sony/touch/images/splash.png
 
@@ -474,13 +472,12 @@ PRODUCT_PACKAGES += \
     CameraCommon \
     CameraPanorama-release \
     CustomizationSelector \
-	HotwordEnrollmentOKGoogleWCD9340 \
-	HotwordEnrollmentXGoogleWCD9340 \
+    HotwordEnrollmentOKGoogleWCD9340 \
+    HotwordEnrollmentXGoogleWCD9340 \
     SemcCameraUI-xxhdpi-release \
     SomcMovieCreator-release \
     SoundPhotoCamera-xxhdpi-release \
     WfdService \
-	com.qualcomm.location \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
